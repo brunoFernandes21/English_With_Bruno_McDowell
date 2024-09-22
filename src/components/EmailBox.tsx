@@ -63,7 +63,7 @@ const EmailBox = () => {
               />
               {nameInput !== "" && (
                 <IoMdCloseCircle
-                  className="absolute cursor-pointer right-5 md:right-40 top-3 text-xl text-slate-500 dark:text-slate-200"
+                  className="absolute cursor-pointer right-2 top-3 text-xl text-slate-500 dark:text-slate-200"
                   onClick={() => {
                     setNameInput("");
                     setShowGeneralError(false);
@@ -88,7 +88,7 @@ const EmailBox = () => {
 
               {emailInput !== "" && (
                 <IoMdCloseCircle
-                  className="absolute cursor-pointer right-5 md:right-40 top-3 text-xl text-slate-500 dark:text-slate-200"
+                  className="absolute cursor-pointer right-2 top-3 text-xl text-slate-500 dark:text-slate-200"
                   onClick={() => {
                     setEmailInput("");
                     setShowGeneralError(false);
